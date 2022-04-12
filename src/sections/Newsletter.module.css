@@ -1,0 +1,89 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    border-radius: 25px;
+    background-color: var(--bg-secondary);
+    background-image: -webkit-linear-gradient(150deg, #27283A 50%, var(--bg-secondary) 50%);
+}
+
+.card > div {
+    width: 100%;
+}
+
+.text {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.text h5 {
+    color: var(--text-primary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    padding: 1rem;
+}
+
+.text p {
+    color: var(--text-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    opacity: 0.88;
+    padding: 1rem;
+}
+
+.input {
+    flex: 1.5;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input input {
+    width: 70%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #B1B1B1;
+    border: none;
+    outline: none;
+    background: #3E3E54;
+    border-radius: 15px 0px 0px 15px;
+    padding: 1.5rem;
+}
+
+.input button {
+    width: 30%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #6D6D8A 0%, #37374A 100%);
+    box-shadow: 0px 139.947px 111.957px rgba(0, 0, 0, 0.25), 0px 90.7062px 65.5676px rgba(0, 0, 0, 0.189815), 0px 53.9054px 35.6605px rgba(0, 0, 0, 0.151852), 0px 27.9893px 18.1931px rgba(0, 0, 0, 0.125), 0px 11.4031px 9.12245px rgba(0, 0, 0, 0.0981481), 0px 2.5916px 4.40573px rgba(0, 0, 0, 0.0601852);
+    border-radius: 0px 13.9947px 13.9947px 0px;
+    padding: 1.4rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.second {
+    padding-left: 1rem;
+    color: var(--text-green);
+}

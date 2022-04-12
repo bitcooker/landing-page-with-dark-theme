@@ -1,0 +1,38 @@
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.list a {
+    color: var(--text-primary);
+}
+
+.list button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background: var(--button-color);
+    /* box-shadow: 0px 139.947px 111.957px rgba(0, 0, 0, 0.25), 0px 90.7062px 65.5676px rgba(0, 0, 0, 0.189815), 0px 53.9054px 35.6605px rgba(0, 0, 0, 0.151852), 0px 27.9893px 18.1931px rgba(0, 0, 0, 0.125), 0px 11.4031px 9.12245px rgba(0, 0, 0, 0.0981481), 0px 2.5916px 4.40573px rgba(0, 0, 0, 0.0601852); */
+    border-radius: 13.9947px;
+    padding: 16px 24px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar {
+    margin: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 48px;
+}

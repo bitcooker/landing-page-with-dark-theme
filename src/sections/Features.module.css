@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div {
+    flex: 1;
+}
+
+.schedule {
+    color: var(--text-orange);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+}
+
+.monitor {
+    color: var(--text-green);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+}
+
+.features h5 {
+    color: var(--text-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.description {
+    color: var(--text-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    margin-bottom: 3rem;
+}
+
+.link {
+    cursor: pointer;
+    color: #7777D0;
+    margin-bottom: 10rem;
+}

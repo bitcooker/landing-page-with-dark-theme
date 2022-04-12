@@ -1,0 +1,15 @@
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.partners div {
+    color: var(--text-primary);
+}
+
+.text {
+    border-top: 1px solid var(--text-primary);
+}

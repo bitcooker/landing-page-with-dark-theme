@@ -1,0 +1,31 @@
+.service {
+    background: var(--bg-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3rem;
+}
+
+.service > div {
+    flex: 1;
+    width: 100%;
+}
+
+.text h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #787AA5;
+    margin-top: 1rem;
+}
+
+.text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    color: #999AAB;
+}

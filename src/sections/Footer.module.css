@@ -1,0 +1,68 @@
+.footer {
+    background-color: var(--bg-secondary);
+}
+
+.footer h3 {
+    color: var(--text-primary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 2.5rem;
+}
+
+.footer p {
+    color: var(--text-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.social {
+    padding-top: 2rem;
+}
+
+.social > * {
+    transform: scale(2);
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright div {
+    color: var(--text-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.div1 {
+    flex: 1.5;
+}
+
+.div2 {
+    flex: 1;
+}
+
+.hr {
+    margin: 2rem 0 1rem;
+    border: 1px solid var(--text-secondary);
+}
